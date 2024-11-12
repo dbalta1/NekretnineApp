@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="prijava.css" />
+    <link rel="stylesheet" href="meni.css" />
+    <title>Prijava</title>
+  </head>
+  <body style="background-color: #fdf1d3">
+    <div id="meni"></div>
+    <div class="login-container">
+      <h2>Prijava</h2>
+      <form id="forma">
+        <div class="form-group">
+          <label for="username"></label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Username"
+            name="username"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password"></label>
+          <input type="password" id="password" placeholder="Password" />
+        </div>
+        <div class="form-group">
+          <button type="button" onclick="login()">Prijava</button>
+        </div>
+      </form>
+    </div>
+    <script src="PoziviAjax.js"></script>
+    <script src="meni.js"></script>
+    <script src="prijava.js"></script>
+  </body>
+</html>

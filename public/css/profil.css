@@ -1,0 +1,46 @@
+body{
+    background-color: #fdf1d3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5% 1% 1% 3%;
+}
+
+img{
+    margin-bottom: 2%;
+}
+
+#tabela tr{
+    height: 60px;
+    width: 60px;
+}
+
+#tabela td:first-child {
+    width: 200px; 
+}
+
+#tabela input[type="text"] {
+    width: 180px;
+    height: 40px;
+    border: none;
+}
+
+
+@media (min-width: 500px) {    
+    #podaci {
+        display:flex;
+    }
+
+    img {
+        float:left;
+        margin-top: 2%;
+        margin-right: 4%;
+        width: 200px;
+        height: 200px;
+    }
+
+    #tabela {
+        float:right;
+        margin-top:1%;
+        width: 50%; 
+    }
+
+}

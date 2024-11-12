@@ -1,0 +1,68 @@
+Greške koje su otkrivene korištenjem validatora
+
+Za validaciju HTML datoteka korišten je: https://validator.w3.org/
+
+---> za datoteku detalji.html
+Document checking completed. No errors or warnings to show.
+
+---> za datoteku meni.html
+Document checking completed. No errors or warnings to show.
+
+---> za datoteku nekretnine.html
+Pronađena je jedna greška.
+
+Error: The element button must not appear as a descendant of the a element.
+From line 40, column 17; to line 40, column 37
+	<button class="gumb">Detalj
+
+---> za datoteku profil.html
+Document checking completed. No errors or warnings to show.
+
+---> za datoteku prijava.html
+Document checking completed. No errors or warnings to show.
+
+
+Za validaciju CSS datoteka korišten je: https://www.cssportal.com/css-validator/
+
+---> za datoteku detalji.css
+No syntax errors!
+
+---> za datoteku meni.css
+No syntax errors!
+
+---> za datoteku nekretnine.css
+Pronađeno je devet grešaka.
+
+Line	Col	Title			Description								Browser
+36	59	Parsing Errors		Expected RBRACE at line 36, col 59.
+    					grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 		All
+
+50	59	Parsing Errors		Expected RBRACE at line 50, col 59.
+    					grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));		All	
+
+56	28	Parsing Errors		Unexpected token '1fr' at line 56, col 28.				All	
+    					grid-template-columns: 1fr;
+
+61	5	Parsing Errors		Expected RBRACE at line 61, col 5.					All	
+    					.grid-item{
+
+64	1	Parsing Errors		Unexpected token '}' at line 64, col 1.					All
+					}
+
+67	5	Parsing Errors		Expected RBRACE at line 67, col 5.					All	
+    					.grid-item{
+
+70	1	Parsing Errors		Unexpected token '}' at line 70, col 1.					All
+					}
+
+73	5	Parsing Errors		Expected RBRACE at line 73, col 5.					All	
+    					.grid-item{
+			
+76	1	Parsing Errors		Unexpected token '}' at line 76, col 1.					All	
+					}
+
+
+---> za datoteku profil.css
+No syntax errors!
+
+

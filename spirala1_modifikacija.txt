@@ -1,0 +1,7 @@
+U HTML datoteci profil.html dodan je jedan div element čiji je id #podaci.
+Unutar ovog diva su detalji o korisniku (slika, ime, prezime, username i password).
+
+U CSS datoteci dodan je dio koda koji određuje poziciju elemenata na stranici ako je širina ekrana veća od 500px, 
+tj. za sliku je dodano float:left, a za tabelu sa podacima korisnika float:right, te su modificirane vrijednosti margina 
+kako bi se postigao traženi izgled. 
+

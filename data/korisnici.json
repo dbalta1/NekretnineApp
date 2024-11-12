@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "ime": "Neko",
+    "prezime": "Nekic",
+    "username": "username1",
+    "password": "hashPassworda1",
+    "slika": "slika.jpg"
+  },
+  {
+    "id": 2,
+    "ime": "Neko2",
+    "prezime": "Nekic2",
+    "username": "username2",
+    "password": "hashPassworda2"
+  },
+  {
+    "username": "NoviUsername",
+    "password": "$2b$10$yfV1UZXfRvr1a64J9Ho7R.IPzlfJHBy5QcQ1ZC.zBdMi3Pix2G.4q",
+    "ime": "NovoIme",
+    "prezime": "NovoPrezime"
+  },
+  {
+    "id": 899,
+    "ime": "korisnik",
+    "prezime": "prezime1",
+    "username": "korisnik1",
+    "password": "$2b$10$OK/MDtsZBB.lEWMXEcrnpeBmlLSdKR3HQAc585zj8HRKxtaa2P/26",
+    "slika": "slika.jpg"
+  },
+  {
+    "username": "korisnik2novo",
+    "password": "$2b$10$PHY5e0UUdo./T8sDtkVGX.atGdGxG9ptCEWqdmzlbAssj4KSjHnbS",
+    "ime": "ime2novo",
+    "prezime": "prezime2novo"
+  },
+  {
+    "username": "fatima",
+    "password": "$2b$10$z5Xh0fet16qGGFgAm.lDY.kZqDHwppk2.AIn5IEv9ak0ikHoiN22i"
+  }
+]

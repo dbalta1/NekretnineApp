@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="detalji.css" />
+    <link rel="stylesheet" href="meni.css" />
+
+    <title>Detalji</title>
+  </head>
+  <body>
+    <div id="meni"></div>
+
+    <h3>OSNOVNO</h3>
+    <div id="osnovno">
+      <img src="standetalji.jpg" alt="slika_kuce" />
+
+      <table class="tabela">
+        <tr>
+          <td id="naziv"><span class="podebljaj">Naziv: </span></td>
+        </tr>
+        <tr>
+          <td id="kvadratura"><span class="podebljaj">Kvadratura: </span></td>
+        </tr>
+        <tr>
+          <td id="cijena"><span class="podebljaj">Cijena: </span></td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>DETALJI</h3>
+    <div id="detalji">
+      <table class="tabela">
+        <tr>
+          <td id="tip_grijanja">
+            <span class="podebljaj">Tip grijanja: </span>
+          </td>
+          <td id="godina_izgradnje">
+            <span class="podebljaj">Godina izgradnje: </span>
+          </td>
+        </tr>
+
+        <tr>
+          <td id="lokacija">
+            <span class="podebljaj">Lokacija: </span> Novo Sarajevo
+          </td>
+          <td id="datum_objave">
+            <span class="podebljaj">Datum objave: </span> 01.10.2023.
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" id="opis">
+            <span class="podebljaj">Opis: </span> div elementu #upiti se nalazi
+            vertikalna lista korisnika i njihovih upita. Svaki element liste se
+            sastoji od dva tekstualna elementa, koji su poredani jedan ispod
+            drugog. U prvom tekstualnom elementu je boldiranim slovima napisan
+            username korisnika koji je postavio upit a u drugom elementu je
+            sadržaj samog upita. Svaki element liste ima ivicu (border) crne
+            boje, debljine 1px.
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>UPITI</h3>
+    <div id="upiti">
+      <ul class="lista-upita" id="lista-upita">
+      </ul>
+    </div>
+
+    <form id="forma" style="display: none;">
+      <label>Pitajte nešto o ovoj nekretnini: </label>
+      <input type="textarea" id="novi"/>
+      <button type="button" onclick="dodaj()">Postavite pitanje</button>
+    </form>
+
+
+    <script src="PoziviAjax.js"></script>
+    <script src="meni.js"></script>
+    <script src="prijava.js"></script>
+    <script src="spojiDetalje.js"></script>
+    <script src="spojiUpite.js"></script>
+  </body>
+</html>

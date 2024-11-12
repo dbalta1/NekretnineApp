@@ -1,0 +1,85 @@
+body {
+    background-color: #fdf1d3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5% 1% 1% 3%;   
+}
+
+#stan, #kuca, #pp {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 35px;
+    margin-bottom: 3%;
+   /* margin: 20px;*/
+  }
+
+.grid-item {
+    border: 1px solid black; 
+    width: 300px;
+}
+
+@media (max-width: 900px) {
+#stan, #kuca, #pp {
+    grid-template-columns: repeat(auto-fit, 300px);
+    }
+}
+
+#stan .grid-item{
+        background-color: white;
+}
+
+#kuca .grid-item{
+        background-color: powderblue;
+}
+
+#pp .grid-item{
+        background-color: green;
+}
+
+.grid-item img{
+    width: 294px; 
+    height: 168px; 
+    object-fit: cover;
+    margin-top:1%;
+    margin-left:1%;
+}
+
+.cijena{
+    text-align: right;
+}
+
+.tabela{
+    width: 100%;
+    margin-bottom: 1%;
+    margin-bottom:4%;
+} 
+
+.tabela tr{
+    height: 38px;
+}
+
+.gumb {
+    margin: 10px auto;
+    text-align: center; 
+    display: block; 
+}
+
+
+#pretraga {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pretraga label, #pretraga input, #pretraga button {
+    margin: 5px;
+    max-width: 100px;
+}
+
+
+
+

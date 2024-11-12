@@ -1,0 +1,33 @@
+ body{
+    background-color: #fdf1d3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+#meni{
+    background-color:#e6f7ff;
+    padding: 0%;
+    margin: 0 auto; 
+    text-align: center;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+}
+
+#meni ul{
+    
+    list-style: none;
+    text-align: center;
+    
+    margin-left:2%;
+
+}
+#meni li{
+      
+    display: inline;
+    margin-right: 50px;
+}
+
+#meni li a:hover{
+    color: #ff9900;
+} 
